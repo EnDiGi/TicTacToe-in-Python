@@ -1,5 +1,5 @@
 #! python 3
-# TicTacToe.py - Un programma per giocare a tris con tre modalità 
+# TicTacToe.py - A program to play tic-tac-toe with 3 different modes
 
 import TwoTicTacToe as TicTwo
 import EasyTicTacToe as TicEasy
@@ -16,7 +16,7 @@ def main():
   easyai = Button(mainscreen, text = "Vs AI (Easy)", command = lambda: TicEasy.main(), width = 20)
   hardai = Button(mainscreen, text = "Vs AI (Hard)", command = lambda: TicHard.main(), width = 20)
   
-  Label(mainscreen, text = "Tris", font = ("consolas", 25)).pack(pady = 10)
+  Label(mainscreen, text = "TicTacToe", font = ("consolas", 25)).pack(pady = 10)
   two_pl.pack(pady = 30)
   easyai.pack(pady = 30)
   hardai.pack(pady = 30)
